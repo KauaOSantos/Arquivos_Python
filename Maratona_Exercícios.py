@@ -129,10 +129,12 @@ Obs.: Salário Bruto - Descontos = Salário Líquido. '''
 imposto_renda=11
 inss=8
 sindicato=5
+
 ganho_hora = float(input("\nDigite quantos você ganha por hora: "))
 numero_horas_trabalhadas = float(input("Digite o número de horas trabalhadas: "))
 salario_bruto = ganho_hora*numero_horas_trabalhadas
 print("O total do seu salário ao mês é: R$",salario_bruto)
+
 salario=salario_bruto*(imposto_renda/100)
 print("Valor total do Imposto de Renda é: R$ %.2f"%salario)
 
@@ -144,10 +146,9 @@ print("Valor total pago ao Sindicato é: R$ %.2f"%imposto_sindicato)
 
 salario_liquido=salario_bruto-salario-imposto_inss-imposto_sindicato
 print("\nO salário líquido é:",salario_liquido)
-#impostos_total=
 
-# salario=int(input("Digite o Salario: "))
-# imposto=float(input("Digite o imposto: "))
-# vi=float(salario*(imposto/100))
-# valor=(salario)-(vi)
-# print("Valor total do imposto é: R$ %.2f"%vi)
+salario=int(input("Digite o Salario: "))
+imposto=float(input("Digite o imposto: "))
+vi=float(salario*(imposto/100))
+valor=(salario)-(vi)
+print("Valor total do imposto é: R$ %.2f"%vi)

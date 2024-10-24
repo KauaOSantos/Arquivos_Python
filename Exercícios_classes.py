@@ -1,4 +1,4 @@
-'''# ex.01 - calculo da área e perímetro de um círculo
+# ex.01 - calculo da área e perímetro de um círculo
 class Circulo:
 
     def __init__(self, raio):
@@ -73,7 +73,7 @@ for i in range(4):
 aluno = Aluno(nome, matricula, notas)
 resultado = aluno.verificar_aprovacao()
 print(resultado)
-'''
+
 #ex.04
 class Funcionario:
     def __init__(self, nome, salario_bruto, cargo):

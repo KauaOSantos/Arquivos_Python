@@ -1,7 +1,5 @@
 from Conta import *
 
-
-
 while True:
     try:
         menu = int(input("\n    Menu de serviços  \n0 - Sair\n1 - Cadastro\n2 - Saldo\n3 - Saque\n4 - Depósito\n"))
