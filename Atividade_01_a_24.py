@@ -1,4 +1,3 @@
-'''
 # Atividades do dia 24/10/2024 
 # Ex. 01
 n1=int(input("Digite o valor 01: "))
@@ -190,7 +189,7 @@ metros = milhas * 1609.34
 centimetros = metros * 100
 print(f"A distância em metros é: {metros:.2f} m")
 print(f"A distância em centímetros é: {centimetros:.2f} cm")
-'''
+
 # Atividade Extra
 # while True:
 vida_adversario = 100
